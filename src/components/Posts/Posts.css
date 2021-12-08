@@ -1,0 +1,36 @@
+.list-posts {
+  width: 400px;
+  font-size: 10px;
+}
+.list-posts-item {
+    height: 120px;
+    background-color: #fff;
+    margin-top: 8px;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 15px;
+    /*给父设置相对定位，父元素为参照物*/
+    position: relative;
+}
+h3 {
+  padding-left: 15px;
+  font-size: 13px;
+  height: 20px;
+  color: #409bcf;
+}
+p {
+  padding-left: 15px;
+  line-height: 20px;
+}
+.post-panel {
+  width: 400px;
+  height: 40px;
+  line-height: 40px;
+  /*设置  post-panel 为绝对定位，绝对定位必须设置参照物，否则相对于 body 定位*/
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(228, 226, 226);
+}
+.post-time,.post-author,.post-like {
+  padding-left: 15px;
+}
